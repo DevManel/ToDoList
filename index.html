@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de tâches</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+</head>
+<body>
+    <h1>Ma Liste de Tâches</h1>
+    
+    <section id="liste-taches">
+        <h2>Liste des tâches</h2>
+        <ul id="taches">
+            <!-- Les tâches seront affichées ici -->
+        </ul>
+    </section>
+    
+    <section id="ajouter-tache">
+        <h2>Ajouter une nouvelle tâche</h2>
+        <form id="formulaire-tache">
+            <input type="text" id="titre-tache" placeholder="Nom de la tâche" required>
+            <select id="priorite-tache">
+                <option value="1">Priorité élevée</option>
+                <option value="2">Priorité normale</option>
+                <option value="3">Priorité basse</option>
+            </select>
+            <button type="submit">Ajouter</button>
+        </form>
+    </section>
+    
+    <button id="supprimer-selectionnes">Supprimer</button>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
